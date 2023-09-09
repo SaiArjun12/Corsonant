@@ -1,0 +1,84 @@
+/* src/TodoApp.css */
+
+.todo-app {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color:aqua;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .todo-app h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .add-task {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .add-task input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-task button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .filter {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .filter label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    background-color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  li.completed {
+    background-color: #c3e6cb; /* Different background color for completed tasks */
+    text-decoration: line-through;
+  }
+  
+  li button {
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  li button.edit-button {
+    background-color: #ffc107;
+  }
+  
