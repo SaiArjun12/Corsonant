@@ -86,7 +86,10 @@ const TodoApp = () => {
             <li key={todo.id}>
               <span
                 className={todo.completed ? 'completed' : ''}
+
                 onClick={() => toggleCompleted(todo.id)}
+                
+          style={{ textDecoration: todo.completed ? 'line-through' : 'none' }}
               >
                 {todo.title}
               </span>

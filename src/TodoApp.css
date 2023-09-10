@@ -64,8 +64,9 @@
   }
   
   li.completed {
-    background-color: #c3e6cb; /* Different background color for completed tasks */
+    background-color:blue; /* Different background color for completed tasks */
     text-decoration: line-through;
+    
   }
   
   li button {
@@ -81,4 +82,7 @@
   li button.edit-button {
     background-color: #ffc107;
   }
-  
+  .todo.completed {
+    text-decoration:line-through;
+    background-color: #007bff;
+  }
